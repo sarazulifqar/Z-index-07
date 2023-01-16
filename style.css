@@ -1,0 +1,42 @@
+.container{
+	position: relative;
+}
+.box-red{
+	position: absolute;
+	margin: 0px;
+	border: 2px solid red;
+	width: 270px;
+/*	z-index: -1;*/
+	top: -10px;
+	left: -10px;
+	height: 150px;
+	background-color: red;
+}
+.box-blue{
+	position: absolute;
+	border: 2px solid blue ;
+	background-color: blue;
+	width: 220px;
+	height: 200px;
+/*	z-index: -1;*/
+	top: 55px;
+	left: 73px;
+}
+.box-yellow{
+	position: absolute;
+	border: 2px solid #ffeb3b;
+	width: 120px;
+	height: 200px;
+	top: 100px;
+	left: 230px;
+	background-color: #ffeb3b;
+}
+.box-green{
+	position: absolute;
+	border: 2px solid green;
+	width: 170px;
+	height: 170px;
+	top: 200px;
+	left: -10px;
+	background-color: green;
+}
